@@ -1,124 +1,29 @@
 [
   {
-    "id": "8122788d-6f8b-4e24-acd2-357cc67a641b",
-    "title": "Laboriosam odio anser circumvenio adduco.",
-    "author": "Michele Pfeffer",
-    "date": "2024-06-07T19:31:55.306Z",
-    "content": "Adfero fugiat nobis depraedor acer. Vicinus chirographum esse absens. Auxilium paulatim testimonium sui ascit causa utroque cogito paulatim.\nSubiungo cubicularis fugit demonstro voco amplitudo combibo. Tremo aspicio utique adstringo admitto tubineus autem. Tristis summopere verto quos cunabula clibanus vitium.\nCondico vitium tantillus amiculum natus animus adamo audeo admiratio. Demulceo tristis nemo agnitio video defluo quidem adipisci. Crustulum cresco causa uredo abeo textus.",
-    "tags": [
-      "tech"
-    ],
-    "image": "https://picsum.photos/seed/vaNKgQHy7B/800/600?grayscale&blur=8"
+    "id": "1",
+    "title": "Getting Started with React",
+    "author": "Jane Doe",
+    "date": "2023-01-01",
+    "content": "This article covers the basics of React and walks you through building your first app.",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "image": "/images/react-intro.jpg"
   },
   {
-    "id": "eedfeb9c-a3af-423e-9cd9-0fa7d875c655",
-    "title": "Comprehendo utpote colo sufficio sint socius vorax colo denego.",
-    "author": "Vicki Upton",
-    "date": "2024-10-12T03:09:04.948Z",
-    "content": "Pecus concedo defessus vulpes. Eum admoveo anser terra enim accendo alo ager demens. Textor decet voluntarius.\nClam aperiam vinculum coadunatio qui urbs. Modi minus tubineus stips tracto sollers eveniet verus. Desidero ocer deinde defluo demo voluptate complectus cupressus.\nQuaerat impedit vel porro aufero. Tepesco defaeco perferendis. Desparatus trans ocer tepesco.",
-    "tags": [
-      "food",
-      "life"
-    ],
-    "image": "https://picsum.photos/seed/xt9MfqL/800/600?blur=9"
+    "id": "2",
+    "title": "CSS Grid vs. Flexbox",
+    "author": "John Smith",
+    "date": "2023-02-15",
+    "content": "We explore the differences between CSS Grid and Flexbox with practical examples and use cases.",
+    "tags": ["CSS", "Grid", "Flexbox", "Web Design"],
+    "image": "/images/css-layouts.jpg"
   },
   {
-    "id": "268b05e3-b6b0-4ee4-9844-5f7bba472824",
-    "title": "Tumultus adnuo somniculosus vestigium vestigium temperantia vivo thesis.",
-    "author": "Felix Hammes",
-    "date": "2024-11-22T15:55:31.785Z",
-    "content": "Viduo argentum optio quisquam calamitas. Audeo vulgo abutor. Adsidue adstringo cedo depromo decumbo.\nDecet conculco excepturi alias. Turbo antiquus valens arcus balbus aperio vergo coma. Claustrum altus amplexus adopto quia sopor depraedor quam spiculum.\nSit amissio textus tamisium defendo aperte somnus. Delicate unus crustulum casso cribro cibo turbo asporto degusto atrox. Porro thesis creptio vergo dolorem.",
-    "tags": [
-      "food",
-      "travel",
-      "music"
-    ],
-    "image": "https://picsum.photos/seed/idCJAS/800/600?grayscale&blur=3"
-  },
-  {
-    "id": "47e785d1-fc02-47bb-bd98-6ac648efd78e",
-    "title": "Cresco sunt quasi auctor officia eaque voco temporibus mollitia patria.",
-    "author": "Georgia Mertz",
-    "date": "2024-10-11T21:05:31.040Z",
-    "content": "Usitas spiculum sequi. Villa calculus maxime conservo depraedor utique. Suus summopere audeo patria defungo adsidue absconditus vinco attero animus.\nVergo tremo curis defessus arcesso vacuus auditor virtus sollicito. Taedium curatio capitulus triumphus cum abeo creator eaque. Quidem sperno subito bellicus audio voluptatibus urbanus.\nAdipiscor necessitatibus cultura umquam cupio et vitae. Agnitio ex convoco arbor aliqua cado. Defessus tero amoveo autem.",
-    "tags": [
-      "life",
-      "coding"
-    ],
-    "image": "https://picsum.photos/seed/jucp79bST/800/600?grayscale&blur=6"
-  },
-  {
-    "id": "b4477363-38b8-48b6-af79-00f8edc7221d",
-    "title": "Abundans atqui utrimque triduana.",
-    "author": "Kenny Sawayn",
-    "date": "2024-06-23T04:35:41.868Z",
-    "content": "Ter vestrum tersus accusantium varietas. Similique corpus debilito pariatur pel velit. Aestivus dolore suasoria deprecator coniecto auctus ultra suggero.\nAmbitus comes adinventitias soleo. Agnosco corrigo claustrum tero adaugeo iusto possimus. Sumo tunc deinde.\nTactus acies non vesper creptio conventus turba. Coniuratio comitatus cognomen cibus curvo patior cras tonsor contigo. Vix stultus angelus suffragium advoco virtus cursus stipes adipisci.",
-    "tags": [
-      "music",
-      "coding",
-      "travel"
-    ],
-    "image": "https://picsum.photos/seed/gIL1JcTkQ/800/600?blur=8"
-  },
-  {
-    "id": "b8f97fb8-56c9-4829-bc00-382413cc0fdd",
-    "title": "Certe universe quis.",
-    "author": "Todd Gutkowski",
-    "date": "2025-01-14T14:27:11.537Z",
-    "content": "Abscido claustrum et tego molestias vesica deludo patior. Nesciunt utrimque combibo turpis desparatus. Aliqua adstringo strues magni occaecati.\nVesper summopere sol. Vulnus aetas sed aranea cum auctus expedita tracto quae supplanto. Ater quo vereor vorago perferendis cohaero vinum nulla.\nCorrigo acies bene. Verumtamen bos vorago. Acceptus antiquus caelestis censura brevis.",
-    "tags": [
-      "life",
-      "travel"
-    ],
-    "image": "https://picsum.photos/seed/q4SNGB7/800/600"
-  },
-  {
-    "id": "4228a789-04c1-4d93-9abb-fefe11b9f746",
-    "title": "Aedificium urbs illum tempore cui vinco combibo verus.",
-    "author": "Guillermo Turcotte",
-    "date": "2025-04-22T20:27:52.668Z",
-    "content": "Claudeo cognomen teres occaecati. Careo somniculosus cresco auditor cresco caput spero patria deficio urbanus. Voluptatem spectaculum baiulus totam demitto verecundia dapifer aetas.\nInfit voco ullam arbitro. Socius amaritudo dedecor ante sto tripudio. Vix labore aduro curto depono subito xiphias aestivus celo facere.\nCupio acceptus voro admoveo abduco caste. Conculco dicta vinum conspergo cohaero assentator vado urbs deprecator. Creptio labore tener defungo speculum ventosus.",
-    "tags": [
-      "coding",
-      "life",
-      "food"
-    ],
-    "image": "https://picsum.photos/seed/OtDTBjte/800/600?blur=1"
-  },
-  {
-    "id": "85e31aa7-2419-43b9-b57a-c590240a2628",
-    "title": "Desparatus vilicus ipsum.",
-    "author": "Francis Hamill MD",
-    "date": "2024-11-17T08:07:06.584Z",
-    "content": "Adfectus vita cavus solutio crustulum. Vaco corona speciosus damnatio. Suadeo tepidus ver creta defero acceptus cimentarius voluntarius.\nPectus celer deduco appono curiositas amissio toties aduro auditor incidunt. Atavus canonicus trado armarium amplitudo vorago itaque bibo. Cohaero adsidue soleo carmen spiculum supellex praesentium.\nSpiculum tutis aedificium conservo deprimo tempore. Speculum coruscus canis convoco adeo mollitia. Absque nihil exercitationem soleo calco dicta.",
-    "tags": [
-      "tech"
-    ],
-    "image": "https://picsum.photos/seed/BzIJl/800/600?grayscale&blur=3"
-  },
-  {
-    "id": "f2bae0cd-5236-47ac-9af3-73dd4bd70959",
-    "title": "Animi ventosus ulterius civis copiose.",
-    "author": "Kari Corkery",
-    "date": "2024-08-17T19:31:36.300Z",
-    "content": "Aestas demo arcesso. Aut depraedor cursus temeritas. Asporto victus adipisci bardus demens sol.\nValde adhuc centum compello aegre. Aro laborum aperte tergum. Aliqua thesis tepesco tonsor.\nDefleo quo atque eius voluptates. A porro tertius suggero mollitia aegrus crepusculum adficio copiose volo. Tergo aedificium animi terreo confugo culpa combibo iusto.",
-    "tags": [
-      "travel",
-      "food"
-    ],
-    "image": "https://picsum.photos/seed/jVqw1/800/600?blur=2"
-  },
-  {
-    "id": "6a1e9363-f451-417e-9910-17df6c26452d",
-    "title": "Constans amiculum sint usitas ulciscor delibero illum aureus.",
-    "author": "Miss Kendra Balistreri",
-    "date": "2024-12-28T00:03:08.330Z",
-    "content": "Causa adnuo decretum caecus cras absum cruciamentum adinventitias textus sto. Comptus custodia caput suggero aperiam carmen audeo clementia auctus. Umbra tepesco vulgo cornu cras voluptates nihil quod cupressus.\nTrucido decumbo cruentus theca. Denique suspendo spiritus vomito autus vorax acies quia. Caecus cubitum denego pariatur appono.\nTamisium deprecator ducimus deporto. Tredecim sublime sopor paulatim. Bis paens benevolentia deduco cursim tabernus voluptatum solvo vociferor.",
-    "tags": [
-      "music",
-      "travel",
-      "life"
-    ],
-    "image": "https://picsum.photos/seed/RarQvv/800/600?grayscale&blur=4"
+    "id": "3",
+    "title": "Accessibility in Web Development",
+    "author": "Alex Johnson",
+    "date": "2023-03-10",
+    "content": "Learn how to make your web applications more accessible to users with disabilities.",
+    "tags": ["Accessibility", "Web Development", "A11y"],
+    "image": "/images/accessibility.jpg"
   }
 ]
