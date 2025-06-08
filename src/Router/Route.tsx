@@ -22,6 +22,13 @@ const router = createBrowserRouter([
     {
       path: "/create",
       element:<BlogPostForm/>,
+    },
+    {
+      path: "/edit/:id",
+      loader: async ({ params }) => {
+        return data.find((post: Post) => post.id === params.id);
+      },
+      element: <BlogPostForm />
     }
   ]);
   
