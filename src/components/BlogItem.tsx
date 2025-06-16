@@ -15,6 +15,7 @@ const BlogItem = ({ post }: { post: Post }) => {
         <p>{content.split('\n')[0]}</p>
       </div>
     </div>
+  
     </NavLink>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import type { Post } from '../types/post';
+import BlogItem from './BlogItem';
 
 const BlogPostForm = () => {
   const [title, setTitle] = useState('');
@@ -9,7 +10,8 @@ const BlogPostForm = () => {
   const [date, setDate] = useState('');
   const [errors, setErrors] = useState<Partial<Post>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  const [showpost, setShowPost] = useState<boolean>(false);
+  const [postId, setPostId] = useState<string | null>(null);
   const validate = (): boolean => {
     const newErrors: Partial<Post> = {};
     if (!title.trim()) newErrors.title = 'Required';
@@ -19,29 +21,37 @@ const BlogPostForm = () => {
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
-  const onSubmit = (post: Post) => {
+  const onSubmit = async(post: Post) => {
     console.log('Post submitted:', post);
-     // Here you would typically send the post to your backend or state management
+    setShowPost(true);
+    setIsSubmitting(false);
+    const localStoragePosts = localStorage.getItem('posts');
+    const posts: Post[] = localStoragePosts ? JSON.parse(localStoragePosts) : [];
+    posts.push(post);
+    localStorage.setItem('posts', JSON.stringify(posts));
   };
-  const handleSubmit = async (e: React.FormEvent) => {
+const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
     setIsSubmitting(true);
     await new Promise((res) => setTimeout(res, 500));
-    const dt = new Date().getTime().toString(); // simulate delay
-    onSubmit({
-      id: dt,
+    const id  = new Date().getTime().toString();
+    setPostId(id); 
+    await onSubmit({
+      id: id || '',
       title,
       content,
       author,
       date,
       tags: [],
-      image:''
+      image: ''
     });
     setIsSubmitting(false);
   };
 
   return (
+    <>
+   
     <form
       onSubmit={handleSubmit}
       className="max-w-3xl mx-auto p-6 bg-base-100 rounded-box shadow-md space-y-5"
@@ -115,10 +125,22 @@ const BlogPostForm = () => {
           className="btn btn-primary"
           disabled={isSubmitting}
         >
-          {isSubmitting ?  'Update Post' : 'Create Post'}
+          {isSubmitting ?  'submitting...' : 'Create Post'}
         </button>
       </div>
     </form>
+  {showpost && (
+        <BlogItem post={{
+          id: postId || '',  
+          title,
+          content,
+          author,
+          date,
+          tags: [],
+          image: ''
+        }} />
+      )}
+       </>
   );
 };
 

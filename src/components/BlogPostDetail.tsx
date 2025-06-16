@@ -1,10 +1,17 @@
 
 import type { Post } from "../types/post"
-import { useLoaderData } from "react-router"
+import { useLoaderData, useNavigate } from "react-router"
 
 
 const BlogPostDetail = () => {
-    const { title, author, date, content }: Post = useLoaderData() as Post
+    const {id, title, author, date, content }: Post = useLoaderData() as Post
+    const navigate = useNavigate();
+    const handleDelete = () => {
+        const posts = JSON.parse(localStorage.getItem('posts') || '[]');
+        const updatedPosts = posts.filter((post: Post) => post.id !== id);
+        localStorage.setItem('posts', JSON.stringify(updatedPosts));
+        navigate('/'); 
+    }
   return (
     <div className="flex justify-center py-10 px-4">
       <div className="max-w-2xl w-full bg-base-100 shadow-lg rounded-lg p-6 space-y-4">
@@ -17,6 +24,9 @@ const BlogPostDetail = () => {
           ))}
         </div>
       </div>
+      <button className="btn btn-error mt-4" onClick={handleDelete}>
+        Delete Post
+      </button>
     </div>
   )
 }
